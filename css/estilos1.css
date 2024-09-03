@@ -1,0 +1,115 @@
+*{margin: 0px;}
+.caja1
+{
+    background-color: purple;
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    left: 320px;
+    top: 52px;
+}
+.caja2
+{
+    background-color: purple;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 200px;
+    left: 250px;
+    border: 10px;
+    border-radius: 50px;
+    padding: 1px;
+    margin: 1px;
+}
+.caja3
+{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    position: relative; /*padre*/
+    top: 200px;
+    left: 250px;
+    border-radius: 500px;
+    border: 50px;
+    margin: 50px;
+}
+.caja3hijo
+{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 500px;
+    border: 10px;
+    margin: 10px;
+}
+.caja6
+{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 500px;
+    border: 10px;
+    margin: 10px;
+}
+.caja3hijo1
+{
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    border-radius: 500px;
+    border: 10px;
+    margin: 10px;
+}
+.caja7
+{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 500px;
+    border: 10px;
+    margin: 10px;
+}
+.caja3hijo2
+{
+    background-color: rgb(2, 66, 2);
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    border-radius: 50px;
+  
+}
+.caja8
+{
+    background-color: black;
+    width: 110px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border-radius: 500px;
+    border: 10px;
+    margin: 10px;
+}
+.nombre
+{
+    left: 300px;
+    top: 80px;
+}
+.cuerpo
+{
+    background-color: blue;
+}
